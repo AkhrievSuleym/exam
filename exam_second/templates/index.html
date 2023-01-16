@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+    <head>
+        <title>Задача 2</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
+    </head>
+    <body>
+        <form method="POST">
+            <p><label>Введите слово: </label><input type="text"  name="word" value=""></p>
+            <button type="submit" value="" style="height: 25px; width: 200px; color: #905f1d" >Проверка</button>
+            <h1 class = 'change'> {{ answer }} </h1>
+        </form>
+    </body>
+</html>
